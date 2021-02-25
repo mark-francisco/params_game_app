@@ -1,0 +1,5 @@
+{
+  :instructions => @instructions,
+  :your_guess => @guess_to_render,
+  :hint => @hint
+}
