@@ -1,4 +1,5 @@
 {
+  :message => @message_to_render,
   :name_of_user => @name_to_render
 
 }
