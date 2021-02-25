@@ -1,0 +1,4 @@
+{
+  :name_of_user => @name_to_render
+
+}
