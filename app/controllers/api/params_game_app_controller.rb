@@ -39,4 +39,14 @@ class Api::ParamsGameAppController < ApplicationController
     
     render "guessing_game_view.json.jb"
   end
+
+  def validate_credentials
+    if params[:user] == "hugh" && params[:password] == "swordfish"
+      @message = "valid credentials."
+    else
+      @message = "invalid credentials."
+    end
+    render "validate_credentials.json.jb"
+  end
+
 end
